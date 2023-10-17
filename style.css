@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    width: 800px;
+    height: 400px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 타이머, 카운트 박스 */
+.time-box,
+.count-box {
+    display: flex;
+    margin-left: auto;
+    padding: 20px 40px;
+}
+
+#timer {
+    border: none;
+    width: 20px;
+}
+
+
+/* 예시 문장 */
+#sample {
+    width: 720px;
+    border: none;
+    font-size: 20px;
+    cursor: default;
+}
+.sample-text {
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+/* 문장 따라쓰기 */
+.text-box {
+    padding: 10px 30px;
+}
+
+input:invalid {
+    border: 4px solid red;
+}
+
+#text-area {
+    width: 730px;
+    height: 100px;
+    font-size: 20px;
+}
+
+/* 버튼 */
+.btn-box {
+    margin-left: auto;
+    padding: 20px 40px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
